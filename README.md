@@ -18,6 +18,16 @@
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat" alt="PRs Welcome">
 </p>
 
+<p align="center">
+  <b>Part of the Mastery Series:</b>&nbsp;
+  <a href="https://github.com/himanshu231204/ml-mastery">
+    <img src="https://img.shields.io/badge/ML--Mastery-14%20⭐-ff9900?style=flat&logo=github" alt="ML Mastery">
+  </a>
+  <a href="https://github.com/himanshu231204/dl-mastery">
+    <img src="https://img.shields.io/badge/DL--Mastery-3%20⭐-e74c3c?style=flat&logo=github" alt="DL Mastery">
+  </a>
+</p>
+
 ---
 
 ## Why PyTorch Mastery?
