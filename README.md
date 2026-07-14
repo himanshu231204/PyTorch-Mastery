@@ -26,14 +26,14 @@ section before Googling — it's written for exactly that moment.
 Environment, CUDA/CPU/MPS detection, project structure conventions, how to use this repo.
 
 ### 01 — Fundamentals (the stuff everything else is built on)
-| Notebook | Covers |
-|---|---|
-| `01_tensors/tensors.ipynb` | creation, dtypes, devices, broadcasting, views vs copies, in-place ops |
-| `02_autograd/autograd.ipynb` | `requires_grad`, computation graph, `backward()`, `grad_fn`, detaching, no_grad |
-| `03_nn_module/nn_module.ipynb` | `nn.Module`, parameters vs buffers, `state_dict`, custom layers |
-| `04_datasets_dataloaders/datasets_dataloaders.ipynb` | `Dataset`, `DataLoader`, collate functions, samplers, multi-worker loading |
-| `05_optimizers_losses/optimizers_losses.ipynb` | SGD/Adam/AdamW internals, loss functions, LR schedulers |
-| `06_training_loop_from_scratch/training_loop.ipynb` | writing the loop by hand before using any trainer abstraction |
+| # | Notebook | Covers |
+|---|----------|--------|
+| 1 | [`tensors.ipynb`](01_fundamentals/tensors.ipynb) | creation, dtypes, devices, broadcasting, views vs copies, in-place ops |
+| 2 | [`autograd.ipynb`](01_fundamentals/autograd.ipynb) | `requires_grad`, computation graph, `backward()`, `grad_fn`, detaching, no_grad |
+| 3 | [`nn_module.ipynb`](01_fundamentals/nn_module.ipynb) | `nn.Module`, parameters vs buffers, `state_dict`, custom layers |
+| 4 | [`datasets_dataloaders.ipynb`](01_fundamentals/datasets_dataloaders.ipynb) | `Dataset`, `DataLoader`, collate functions, samplers, multi-worker loading |
+| 5 | [`optimizers_losses.ipynb`](01_fundamentals/optimizers_losses.ipynb) | SGD/Adam/AdamW internals, loss functions, LR schedulers |
+| — | _training_loop.ipynb_ | _(planned)_ writing the loop by hand before using any trainer abstraction |
 
 ### 02 — Core Deep Learning
 | Folder | Covers |
@@ -103,6 +103,9 @@ This repo is being built incrementally, one notebook at a time. Completed
 notebooks are checked below; everything else has a folder reserved and will
 be filled in next.
 
-- [x] `01_fundamentals/01_tensors/tensors.ipynb`
-- [x] `01_fundamentals/02_autograd/autograd.ipynb`
+- [x] `01_fundamentals/tensors.ipynb`
+- [x] `01_fundamentals/autograd.ipynb`
+- [x] `01_fundamentals/nn_module.ipynb`
+- [x] `01_fundamentals/datasets_dataloaders.ipynb`
+- [x] `01_fundamentals/optimizers_losses.ipynb`
 - [ ] everything else (structure exists, content coming — built and confirmed with you one notebook at a time)
