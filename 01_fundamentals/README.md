@@ -1,14 +1,27 @@
-# 01 — Fundamentals
+# 🔥 01 — Fundamentals
 
-The building blocks of PyTorch. Every notebook here covers one core concept with
+The core building blocks of PyTorch. Every notebook here covers one concept with
 explanation, runnable code, common bugs, and exercises.
 
-| # | Notebook | Description | Open in Colab |
-|---|----------|-------------|---------------|
-| 1 | `tensors.ipynb` | Creation, dtypes, devices, broadcasting, views vs copies, in-place ops | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/pytorch-mastery/blob/main/01_fundamentals/tensors.ipynb) |
-| 2 | `autograd.ipynb` | `requires_grad`, computation graph, `backward()`, `grad_fn`, detaching, `no_grad` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/pytorch-mastery/blob/main/01_fundamentals/autograd.ipynb) |
-| 3 | `nn_module.ipynb` | `nn.Module`, parameters vs buffers, `state_dict`, custom layers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/pytorch-mastery/blob/main/01_fundamentals/nn_module.ipynb) |
-| 4 | `datasets_dataloaders.ipynb` | `Dataset`, `DataLoader`, collate functions, samplers, multi-worker loading | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/pytorch-mastery/blob/main/01_fundamentals/datasets_dataloaders.ipynb) |
-| 5 | `optimizers_losses.ipynb` | SGD/Adam/AdamW internals, loss functions, LR schedulers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/pytorch-mastery/blob/main/01_fundamentals/optimizers_losses.ipynb) |
+> **Click a notebook name** to view on GitHub, or the **Colab badge** to open directly in Google Colab — no setup required.
 
-> **Training loop notebook** — `06_training_loop_from_scratch` is planned but not yet created.
+| Notebook | What You'll Learn | Open |
+|----------|-------------------|------|
+| [`tensors.ipynb`](tensors.ipynb) | Creation, dtypes, devices, broadcasting, views vs copies, in-place ops | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/tensors.ipynb) |
+| [`autograd.ipynb`](autograd.ipynb) | `requires_grad`, computation graph, `backward()`, `grad_fn`, detaching, `no_grad` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/autograd.ipynb) |
+| [`nn_module.ipynb`](nn_module.ipynb) | `nn.Module`, parameters vs buffers, `state_dict`, custom layers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/nn_module.ipynb) |
+| [`datasets_dataloaders.ipynb`](datasets_dataloaders.ipynb) | `Dataset`, `DataLoader`, collate functions, samplers, multi-worker loading | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/datasets_dataloaders.ipynb) |
+| [`optimizers_losses.ipynb`](optimizers_losses.ipynb) | SGD/Adam/AdamW internals, loss functions, LR schedulers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/optimizers_losses.ipynb) |
+
+> 📝 **Coming soon:** `training_loop.ipynb` — writing the loop by hand before using any trainer abstraction.
+
+---
+
+**What's inside each notebook:**
+
+| Section | What You Get |
+|---------|--------------|
+| 📖 Concept Overview | Plain English explanation of what it is and why it exists |
+| 🔢 Runnable Code | Numbered sections — minimal, heavily commented, actually executed |
+| ⚠️ Common Bugs | The mistakes everyone makes here + how to diagnose them |
+| ✏️ Exercises | Practice problems with a scratch code cell |
