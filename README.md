@@ -65,6 +65,7 @@ pytorch-mastery/
 │   ├── autograd.ipynb                     # Autograd, computation graph, backward()
 │   ├── nn_module.ipynb                    # nn.Module, parameters, state_dict
 │   ├── datasets_dataloaders.ipynb         # Dataset, DataLoader, collate, samplers
+│   ├── training_loop_from_scratch.ipynb   # Full training loop: batch, loss, backward, step
 │   └── optimizers_losses.ipynb            # SGD/Adam/AdamW, loss functions, LR schedulers
 │
 ├── 02_core_deep_learning/                 # Classical deep learning
@@ -96,6 +97,7 @@ Click a notebook name to view it on GitHub, or the **Colab badge** to open it di
 | [`autograd.ipynb`](01_fundamentals/autograd.ipynb) | `requires_grad`, computation graph, `backward()`, `grad_fn`, detaching, `no_grad` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/autograd.ipynb) |
 | [`nn_module.ipynb`](01_fundamentals/nn_module.ipynb) | `nn.Module`, parameters vs buffers, `state_dict`, custom layers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/nn_module.ipynb) |
 | [`datasets_dataloaders.ipynb`](01_fundamentals/datasets_dataloaders.ipynb) | `Dataset`, `DataLoader`, collate functions, samplers, multi-worker loading | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/datasets_dataloaders.ipynb) |
+| [`training_loop_from_scratch.ipynb`](01_fundamentals/training_loop_from_scratch.ipynb) | Full training loop: batches, loss, `backward()`, optimizer step, eval | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/training_loop_from_scratch.ipynb) |
 | [`optimizers_losses.ipynb`](01_fundamentals/optimizers_losses.ipynb) | SGD/Adam/AdamW internals, loss functions, LR schedulers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/himanshu231204/PyTorch-Mastery/blob/main/01_fundamentals/optimizers_losses.ipynb) |
 
 ### 🧠 02 — Core Deep Learning
@@ -214,6 +216,7 @@ This repo is being built incrementally, one notebook at a time.
 - [x] `01_fundamentals/autograd.ipynb`
 - [x] `01_fundamentals/nn_module.ipynb`
 - [x] `01_fundamentals/datasets_dataloaders.ipynb`
+- [x] `01_fundamentals/training_loop_from_scratch.ipynb`
 - [x] `01_fundamentals/optimizers_losses.ipynb`
 - [ ] Everything else (structure exists, content coming — built and confirmed one notebook at a time)
 
